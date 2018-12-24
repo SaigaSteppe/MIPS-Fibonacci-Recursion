@@ -12,7 +12,7 @@
 
 # Assume that the value of n is in register $a0 and register $v0 holds the result of the function.
 
-addi $a0,$a0,3#temp (n = 10)
+addi $a0,$a0,10#temp (n = 10)
 jal fib #jump to [fib] and link
 j end#jump to [end] after finish with [fib]
 
